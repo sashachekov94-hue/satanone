@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SatanOne 3.0 | Official Site</title>
+    <style>
+        body {
+            background: #050505; /* Почти черный */
+            color: #ff4d4d; /* Красный текст */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* Анимация пульсации для фона */
+        .bg-glow {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(139,0,0,0.3) 0%, rgba(0,0,0,0) 70%);
+            z-index: -1;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Стиль для твоего логотипа */
+        .logo-img {
+            max-width: 300px;
+            width: 100%;
+            filter: drop-shadow(0 0 15px #ff0000);
+            margin-bottom: 20px;
+            border-radius: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-transform: uppercase;
+            letter-spacing: 7px;
+            margin: 10px 0;
+            text-shadow: 2px 2px 10px #000, 0 0 20px #ff0000;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #888;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: #8b0000;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: 2px solid #ff4d4d;
+            transition: 0.4s;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background: #ff0000;
+            box-shadow: 0 0 30px #ff0000;
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-glow"></div>
+    <div class="container">
+        <img src="logo.png" alt="SatanOne Logo" class="logo-img">
+        
+        <h1>SATANONE 3.0</h1>
+        <p>ИГРОВОЙ КАНАЛ ИЗ САМЫХ ГЛУБИН ПРЕИСПОДНЕЙ</p>
+        
+        <a href="https://t.me/ТВОЙ_БОТ" class="btn">ПЕРЕЙТИ В ТЕЛЕГРАМ</a>
+    </div>
+</body>
+</html>
